@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My First Web page</title>
+
+    <!-- CDN link for Roboto Font -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto"
+      rel="stylesheet"
+    />
+    <!-- CDN link for Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <style>
+      body {
+        font-family: "Roboto";
+      }
+      .tweet-box {
+        width: 457px;
+        height: 138px;
+        margin: 4px;
+        margin: auto;
+        margin-top: 200px;
+      }
+      .profile-pic {
+        width: 130px;
+        height: 130px;
+        float: left;
+        margin-right: 14px;
+      }
+      .username {
+        font-size: 20px;
+        font-weight: bold;
+        margin-bottom: 14px;
+        color: #000000;
+        margin-top: auto;
+      }
+      .description {
+        font-size: 20px;
+        margin-bottom: 24px;
+        color: #000000;
+      }
+      i {
+        width: 20px;
+        height: 20px;
+        color: #858991;
+      }
+      span {
+        font-size: 15px;
+        margin-right: 24px;
+        padding-left: 14px;
+        color: #858991;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="tweet-box">
+      <img
+        class="profile-pic"
+        src="images/mosh.jpeg"
+        alt="mosh profile picture"
+      />
+
+      <p class="username">@moshhamedani</p>
+      <p class="description">I'd love to teach you HTML/CSS!</p>
+
+      <div>
+        <i class="fa-regular fa-comment"></i><span>242</span>
+        <i class="fa-solid fa-retweet"></i><span>142</span>
+        <i class="fa-regular fa-heart"></i><span>2.6k</span>
+      </div>
+    </div>
+  </body>
+</html>
